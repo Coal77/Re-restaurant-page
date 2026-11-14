@@ -122,3 +122,8 @@ header button:hover {
     font-weight: 700;
     white-space: nowrap;
 }
+
+.contactBox p {
+    font-size: 1.05rem;
+    line-height: 1.6;
+}
