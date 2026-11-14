@@ -1,5 +1,6 @@
 import "./styles.css";
 import { homePage } from "./homePage.js";
+import { menuPage } from "./menu.js";
 const canvas = document.getElementById("content");
 
 function renderPage(page) {
@@ -7,4 +8,4 @@ function renderPage(page) {
     canvas.appendChild(page)
 }
 
-renderPage(homePage())
+renderPage(menuPage())
