@@ -1,4 +1,4 @@
-import { factoryElem } from "./factory.js";
+import { factoryElem } from "./factory";
 
 const contactInfo = [
     { title: "Visit Us", lines: ["123 Forest Drive", "Forestville, Maine"] },
@@ -6,7 +6,7 @@ const contactInfo = [
     { title: "Email", lines: ["hello@jomilojus.com"] },
 ];
 
-function contactPage({ title, lines }) {
+function createContactBox({ title, lines }) {
     const box = factoryElem("div", "contactBox", "");
     box.append(factoryElem("h4", "", title));
 
