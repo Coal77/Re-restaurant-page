@@ -45,7 +45,7 @@ header button:hover {
     justify-content: center;
 }
 
-#content > .innerContent:first-child {
+#content > .innerContent {
     width: 90%;
     margin-top: 2rem;
     background-color: var(--background-color);
@@ -93,4 +93,32 @@ header button:hover {
     margin-top: 1rem;
     font-style: italic;
     font-weight: 600;
+}
+
+.menuItem {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 1rem;
+    text-align: left;
+    padding: .75rem 0;
+    border-bottom: 1px dashed var(--border-color);
+}
+
+.menuItem:last-child {
+    border-bottom: none;
+}
+
+.itemInfo h5 {
+    font-size: 1.1rem;
+}
+
+.itemInfo p {
+    font-size: .95rem;
+    margin-top: .25rem;
+}
+
+.price {
+    font-weight: 700;
+    white-space: nowrap;
 }
