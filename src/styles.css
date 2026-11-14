@@ -30,8 +30,13 @@ header > nav {
         font-weight: 600;
         background-color: transparent;
         border: 1px solid black;
-        border-radius: .5rem;
+        border-radius: 1rem;
+        corner-shape: squircle;
         cursor: pointer;
+    }
+    button:focus {
+        background-color: #3b2a1a;
+        color: var(--background-color);
     }
 }
 
@@ -73,6 +78,7 @@ header button:hover {
     margin-top: 2rem;
     width: 70%;
     border-radius: 2rem;
+    corner-shape: squircle;
     padding: 1.5rem;
 }
 

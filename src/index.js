@@ -16,7 +16,7 @@ const canvas = document.getElementById("content");
 const { homeButton, menuButton, contactButton } = header(nav);
 homeButton.addEventListener("click", () => renderPage(homePage()));
 menuButton.addEventListener("click", () => renderPage(menuPage()));
-contactButton.addEventListener("click", () => renderPage(contactPage));
+contactButton.addEventListener("click", () => renderPage(contactPage()));
 
 renderPage(homePage());
 

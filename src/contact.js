@@ -1,4 +1,4 @@
-import { factoryElem } from "./factory";
+import { factoryElem } from "./factory.js";
 
 const contactInfo = [
     { title: "Visit Us", lines: ["123 Forest Drive", "Forestville, Maine"] },

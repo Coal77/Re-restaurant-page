@@ -1,4 +1,3 @@
-// import { container } from "webpack";
 import { factoryElem } from "./factory.js";
 
 export function homePage() {
